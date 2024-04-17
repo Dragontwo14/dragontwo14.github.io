@@ -3,17 +3,17 @@ img {
 }
 
 p {
-    color: black;
+    background-color: black;
 }
 
 h1 {
 font-size: 50px;
-color: black;
+background-color: black;
 }
 
 h2 {
 font-size: 25px;
-color: black;
+background-color: black;
 }
 
 body {
