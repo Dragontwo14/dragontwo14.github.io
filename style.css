@@ -29,4 +29,6 @@ a {
     color:olive;
     text-align: center;
     margin: 15px;
+    font-size: 15px;
+    display: block;
 }
