@@ -2,8 +2,17 @@ img {
     border-radius: 175px;
 }
 
+p {
+    color: black;
+}
+
+h1 {
+    color: black;
+}
+
 h2 {
 font-size: 25px;
+    color: black;
 }
 
 body {
