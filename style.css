@@ -23,12 +23,12 @@ body {
 }
 
 a {
-    background-color: white;
+    background-color: crimson;
     font-size: 15px;
     border-radius: 10px;
     padding: 10px;
     display: block;
     text-align: center;
     margin: 10px;
-    color: blue;
+    color: white;
 }
