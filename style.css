@@ -9,3 +9,8 @@ font-size: 50px;
 h2 {
 font-size: 25px;
 }
+
+body {
+    background-color: aqua;
+    color: beige;
+}
