@@ -21,3 +21,10 @@ body {
     color: beige;
     text-align: center;
 }
+
+a {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: crimson;
+    color:olive;
+}
