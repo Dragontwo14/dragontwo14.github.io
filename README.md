@@ -1,3 +1,3 @@
 This is just my own Website, so yeah :-). Nothing special
 
-will soon switch to neocities: https://dragontwo14.neocities.org
+you can find my page now here: https://dragontwo14.neocities.org
