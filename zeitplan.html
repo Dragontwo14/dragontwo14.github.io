@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <title>Dragons's Site – Zeitplan</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+    <img src="logo.png" alt="Logo" class="logo-img" />
+    <a href="index.html">Dragons's Site</a>
+    </div>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+    <nav id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="zeitplan.html">Zeitplan</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FBerlin&showPrint=0&src=ai5nZXJ0emVuMTIzNDVAZ21haWwuY29t&src=NDU4NzM3OTY2MjNlNGE2ODk2YjU1ODdiZWZjNDk1MzAyYzgwNzYwMjA0OWZkYzczMTQxMDM4YzZiOGJkZmFiMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=OGY3ZjEwZmYwYWRmY2MxM2ZhOTg3MDk5MjdkMWViYzdiYzg1ZWQ1ODA5OTBkOWUzNDk4NTA2NjdhM2E3NDJmNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=aHQzamxmYWFjNWxmZDYyNjN1bGZoNHRxbDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23039be5&color=%23e67c73&color=%23d50000&color=%23b39ddb" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </section>
+    <!--<section>
+      <h2>Kontakt</h2>
+      <p>Fragen? Schreib uns auf Discord oder per Mail: <a href="mailto:info.schaufelcraft@web.de">info.schaufelcraft@web.de</a></p>
+    </section>-->
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dragons's Site</p>
+  </footer>
+
+  <script>
+    document.getElementById("hamburger").addEventListener("click", () => {
+      document.getElementById("nav-links").classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
