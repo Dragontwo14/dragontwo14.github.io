@@ -1,62 +1,18 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="icon" type="image/png" href="logo.png" />
-  <title>Dragons's Site – Home</title>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="DragonTwo14 – persönliche Website, Projekte, Gaming, IT und mehr.">
+<link rel="icon" type="image/png" href="logo.png"><link rel="stylesheet" href="styles.css">
+<title>DragonTwo14 | Home</title>
 </head>
-<div class="wrapper">
 <body>
-  <header>
-    <div class="logo">
-    <img src="logo.png" alt="Logo" class="logo-img"/>
-    <a href="index.html">Dragons's Site</a>
-    </div>
-    <button class="hamburger" id="hamburger">&#9776;</button>
-    <nav id="nav-links">
-      <a href="index.html">Home</a>
-      <a href="<!--uploadplan.html-->">Uploadplan (inactive)</a>
-    </nav>
-  </header>
-  <main>
-    <section class="hero-section">
-  <div class="hero-content">
-    <h1></h1>
-    <p></p>
-    <a class="btn" href="<!--uploadplan.html-->">Uploadplan (inactive)</a>
-
-    <div class="ip-box">
-      <p></p><span class="ip"></span>
-    </div>
-
-    <p class="small-info">
-    </p>
-  </div>
-</section>
-    <section>
-      <h2></h2>
-      <p></p>
-    </section>
-
-    <section class="grid">
-      <!--<div class="feature"><h3>Wirtschaft</h3><p>Handelssystem + Shopping Mall von CyberDev_</p></div>
-      <div class="feature"><h3>Custom Erfolge</h3></div>
-      <div class="feature"><h3>Events</h3><p>Wöchentliche Events mit Belohnungen.</p></div>
-      <div class="feature"><h3>Support</h3><p>Erreichbar über <a href="https://discord.gg/ck9h7y5zvG" target="_blank" style="color:#ffd700;">Discord</a> und <a href="mailto:info.schaufelcraft@web.de">Email</a>.</p></div> -->
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2026 Dragons's Site</p>
-  </footer>
-
-  <script>
-    document.getElementById("hamburger").addEventListener("click", () => {
-      document.getElementById("nav-links").classList.toggle("active");
-    });
-  </script>
-</body>
-</div>
-</html>
+<header class="site-header"><a class="brand" href="index.html"><img src="logo.png" alt="DragonTwo14 Logo"><span>DragonTwo14</span></a><button class="menu" id="menu" aria-label="Menü">☰</button><nav id="nav"><a class="active" href="index.html">Home</a><a href="#about">Über mich</a><a href="#projects">Projekte</a><a href="#socials">Socials</a><a href="uploadplan.html">Uploadplan</a></nav></header>
+<main>
+<section class="hero"><div class="hero-copy"><p class="eyebrow">WELCOME TO MY CORNER OF THE INTERNET</p><h1>Hey, ich bin <span>DragonTwo14</span>.</h1><p class="lead">IT, Hardware, Gaming, Geschichte und jede Menge Projekte. Hier landet alles, woran ich gerade bastle.</p><div class="actions"><a class="btn primary" href="#projects">Projekte entdecken</a><a class="btn ghost" href="uploadplan.html">Zum Uploadplan →</a></div></div><div class="hero-card"><div class="status"><i></i> Online-ish</div><div class="code"><span>&lt;</span>dragon<span>/&gt;</span><br><small>building things...</small></div></div></section>
+<section id="about" class="section"><div class="section-head"><p class="eyebrow">ABOUT</p><h2>Was hier so passiert</h2></div><div class="cards"><article class="card"><div class="icon">💻</div><h3>IT & Hardware</h3><p>PCs, Hardware, Linux, Programmieren und alles, was sich irgendwie auseinandernehmen lässt.</p></article><article class="card"><div class="icon">🎮</div><h3>Gaming & Modding</h3><p>Minecraft, Strategiespiele, Mods, Server und kleine Projekte, die aus „nur kurz testen“ entstehen.</p></article><article class="card"><div class="icon">🏛️</div><h3>Geschichte</h3><p>Historische Umbruchzeiten, Politik und die Frage, warum die Welt eigentlich so geworden ist.</p></article></div></section>
+<section id="projects" class="section"><div class="section-head"><p class="eyebrow">PROJECTS</p><h2>Aktuelle Projekte</h2></div><div class="projects"><article class="project featured"><span class="tag">WEB</span><h3>DragonTwo14 Website</h3><p>Diese Website. Von einer kleinen Startseite zu meinem eigenen digitalen Zuhause.</p><span class="arrow">↗</span></article><article class="project"><span class="tag">GAMING</span><h3>Minecraft</h3><p>Server, Ideen, Builds und technische Spielereien.</p></article><article class="project"><span class="tag">CODE</span><h3>Python & Co.</h3><p>Kleine Programme und Experimente zum Lernen und Ausprobieren.</p></article></div></section>
+<section id="socials" class="section"><div class="section-head"><p class="eyebrow">FIND ME</p><h2>Meine Ecken im Netz</h2></div><div class="socials"><a href="https://github.com/DragonTwo14" target="_blank" rel="noopener"><strong>GitHub</strong><span>@DragonTwo14</span>↗</a><a href="https://bsky.app/" target="_blank" rel="noopener"><strong>Bluesky</strong><span>Social & Updates</span>↗</a><a href="https://steamcommunity.com/" target="_blank" rel="noopener"><strong>Steam</strong><span>Games & Profile</span>↗</a></div></section>
+</main><footer><span>© 2026 DragonTwo14</span><span>Built with HTML, CSS & ☕</span></footer>
+<script>const b=document.getElementById('menu'),n=document.getElementById('nav');b.addEventListener('click',()=>n.classList.toggle('open'));n.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>n.classList.remove('open')));</script>
+</body></html>
